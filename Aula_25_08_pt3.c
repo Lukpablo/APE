@@ -5,10 +5,10 @@ int main (){
 float nota;
 int falta;
 
-printf("Digite a sua nota");
+printf("Digite a sua nota:\n ");
 scanf("%f", &nota);
 
-printf("Digite a quantidade de faltas");
+printf("Digite a quantidade de faltas:\n ");
 scanf("%d", &falta);
 
 if (nota >=9 && falta <=20){
@@ -23,5 +23,6 @@ if (nota >=9 && falta <=20){
 
 
 return 0;
+
 }
 
