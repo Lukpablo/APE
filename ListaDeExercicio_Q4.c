@@ -20,7 +20,9 @@ scanf("%d", &frequencia);
 media = (nota1 + nota2 + nota3) / 3.0;
 
 if (media >= 7 && frequencia >= 75){
-    printf("\nResultado: Aluno APROVADO!\n");
+    printf("Resultado: Aluno APROVADO!\n");
+} else {
+    printf("Resultado: Aluno REPROVADO!\n");
 }
 
 return 0;
