@@ -40,6 +40,7 @@ if (media == 0 && faltas >18) {
 }
 
 
+
 return 0;
 
 
