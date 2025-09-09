@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+int main(){
+    
+  float nota;
+  
+  printf("Digite a sua nota: ");
+  scanf("%f", &nota);
+  
+  if (nota >= 7) {
+      printf("Situação: APROVADO!");
+  } else if (nota >= 5){
+      printf("Situação: RECUPERAÇÃO!");
+  } else {
+      printf("Situação: REPROVADO.");
+      
+  }
+  
+  
+  return 0;
+  
+  }
