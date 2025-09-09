@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+
+int main(){
+    
+    int idade;
+    char estudante;
+    
+    printf("Digite a sua idade: ");
+    scanf("%d", &idade);
+    
+    printf("Voce e estudante? (s/n): ");
+    scanf(" %c", &estudante);
+    
+    if (idade >= 60 || estudante == 's'){
+        printf("Voce tem direito ao desconto!");
+        
+} else {
+    printf("Voce paga o valor normal!");
+}
+
+return 0;
+
+}
